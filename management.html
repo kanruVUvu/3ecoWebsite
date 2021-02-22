@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+<title>3ECO - Management</title>
+<link href="style/abc.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+<style>
+#header-image-menu{ 
+	top: 0px; 
+	position: relative; 
+} 
+#header-image-menu img{ 
+    position:relative;
+    width: 100%;
+    margin: none; 
+    padding: none; 
+} 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+</style>
+</head>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <img src="3ecoimages/3ecoimage.png">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Management</a></li>
+          <li><a class="dropdown-item" href="#">Our Mission</a></li>
+          <li class="dropdown-item">Our Vision</a></li>
+        </ul>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Media
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Gallery</a></li>
+          <li><a class="dropdown-item" href="#">News</a></li></ul>
+          </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Corporate
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Customers</a></li>
+          <li><a class="dropdown-item" href="#">Reports</a></li></ul></li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Careers
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Life at 3eco</a></li>
+          <li><a class="dropdown-item" href="#">Job Oppurtunities</a></li>
+          </ul>
+		  </li>
+<li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+	</ul>
+	<div class = "dropdown" style="position:relative">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+	</div>
+	<div class = "dropdown" style="position:relative">
+	<a class="btn-floating btn-li mx-1">
+        <i class="fab fa-facebook"> </i>
+      </a>
+	  </div>
+	<div class = "dropdown" style="position:relative">
+	<a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+	  </div>
+	  <div class="dropdown" style="position:relative">
+	  <a class="btn-floating btn-fb mx-1" >
+	 <i class="fas fa-rss"></i>
+	 </a>
+	 </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color:black">Search</button>
+    </form>
+  </div>
+</nav>
+<script>
+$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+  if (!$(this).next().hasClass('show')) {
+    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+  }
+  var $subMenu = $(this).next(".dropdown-menu");
+  $subMenu.toggleClass('show');
+
+
+  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+    $('.dropdown-submenu .show').removeClass("show");
+  });
+
+
+  return false;
+});
+</script>
+<div id="header-image-menu"> 
+        <img src="3ecoimages/Shakthi8cargo.jpeg" style="position:relative;height:530px"> 
+	</div>
+<body class="body">
+<div style="position:relative;top:18px">
+<h5 style="position:relative;color:#202558;text-align:left;font-size:16px;margin-left:10px"><b>Management</b></h5>
+</div>
+<br>
+<div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="3ecoimages/peterimage.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title" style="position:relative;font-size:16px">Peter Hartmut Voelkner (CEO)</h4>
+            <p class="card-text" style="position:relative;font-size:16px"><b>Peter Hartmut Voelkner</b>is co-founder of 3ev Industries / 3eco Systems and Rugged Solar Products, and he is the Founder & CEO of ReBatt Limited (HKSAR). He is responsible for the business operations, strategy, and IT development for this group of companies. Peter brings over 30 years of experience in specialized off-grid solar power systems, and he has over a decade of experience in distributed power and storage technologies. Furthermore, he spent 20 years working in finance, based in New York City, specializing in industrial, technology-hardware, and power-tech companies, as well as industrial and franchise/service industries. Over his career Peter performed in-depth due diligence on numerous companies and directed significant investments in more than 50 companies. His responsibilities included oversight of funds in excess of USD $2 billion and direct management of discretionary portfolios valued over USD $200 million. He has founded several companies in the renewable energy and power technology space. 
+Peter received an MBA, with distinction, from Columbia Business School at Columbia University, NY, and he graduated with a BA in Economics and Chinese Studies from Bennington College, VT. 
+</p>
+</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="3ecoimages/krishnabhupathi.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title" style="position:relative;font-size:16px">CG Krishna Bhupathi</h4>
+            <p class="card-text" style="position:relative;font-size:16px"><b>CG Krishna Bhupathi</b> | Mr. Bhupathi is renowned in sports, entertainment, and business through his support and involvement with his son, Mahesh Bhupathi, an international celebrity known as India's first man to win a Grand Slam tennis tournament, and then to achieve the number one ranking worldwide. Bhupathi is dosely associated with raising the expectations and performance of individuals and organizations to the highest international standards, and he has actively developed globally competitive entities in sports, business, and early childhood education. He began his career in banking more than forty-five years ago at Standard Chartered Bank in India, later working in Oman and Dubai, UAE. Bhupathi has founded several businesses in the sports, entertainment, real estate, education, and renewable energy industries. He is the co-founder of Rugged Solar Products Pvt Ltd serves as Chairman of the Board of 3ev Industries. 
+Mr. Bhupathi brings his extensive commercial contacts within India to benefit the business development efforts of the company. Mr. Bhupathi has established multiple private companies from the start-up phase and serves as an advisor to the Management team at 3ev. 
+ </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="3ecoimages/karansir.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title" style="position:relative;font-size:16px">Karan Kadaba</h4>
+            <p class="card-text" style="position:relative;font-size:16px"><b>Karan Kadaba</b>brings over eight-years of Entrepreneurial Experience in Renewable Energy projects in India and the Middle East. He was Founder & CEO of Karmasukom Energy in India of its affiliate, Aeternum Solar, in the UAE. These companies deployed more than 8 MW of Distributed Solar Projects. Mr. Kadaba has the distinction of being the youngest Channel Partner to India's Ministry of Renewable Energy in 2014. In 2020, he completed the MoU signed between IIT Powai & Karmasukom and the Strategic Partnership with a US owned Solar IPP to develop 25 Million USD of Projects by 2021 in India. At 3ev, Mr. Kadaba is spearheading the company's mission and strategic plan for hyper-local connectivity as an integrated solution and service. He oversees growth initiatives, pan-India accounts and partnerships, and captive operations at 3eco, as well as development of the 3eco Franchise Partner Program. Having a degree in Power Electronics, Mr. Kadaba is involved in shaping the company's R&D roadmap and product development activities. He serves on the Executive Management Committee at 3ev. Mr. Kadaba graduated with an Engineering degree from NMIMS Mumbai & a post-graduate Engineering degree in ECE (Dean's List 2011) from Hong Kong University of Science and Technology. 
+</p>
+        </div>
+      </div>
+    </div>
+	<div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="3ecoimages/sumanimage.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title" style="position:relative;font-size:16px">Suman K.Mishra</h4>
+            <p class="card-text" style="position:relative;font-size:16px"><b>Suman K.Mishra</b> | Suman K. Mishra brings nearly two decades of professional experience at major IT companies in India and abroad. He has used his degree in Computer Science from NIT, Tiruchirappalli, and MBA from SP Jain School of Global Management, to support and grow discrete businesses within large enterprises. Suman has also extended his track record of IT-related business development to start ups with a proven ability to take new businesses through the development stages to commercialization and growth. 
+As CTO and Member of the Executive Management Committee at 3ev, Suman is responsible for designing, developing, and continuously improving the proprietary IT platform to integrate digital telemetry, resource optimization, and market intelligence seamlessly into the hyper local connectivity services provided by the company. 3ev brings the benefits of big-data, mass-customization, and empirical measures of continuous improvement and machine learning to our grass-roots customer base through the 3ecolt connectivity architecture and user interfaces. Suman is tasked with making our mission a reality. 
+Suman is a shareholder in 3ev, and he lends his extensive commercial contacts to assist in business development and corporate strategy. </p>
+          </div>
+        </div>
+      </div>
+	  </div> 
+<footer class="page-footer font-small stylish-color-dark pt-4" style="background-color:yellow">
+  <!-- Grid container -->
+  <div class="container p-4" style="background-color:yellow">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">ABOUT</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">MANAGEMENT</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">OUR MISSION</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">OUR VISION</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">MEDIA</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">GALLERY</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">NEWS</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">CAREERS</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">Life at 3eco</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">Job Oppurtunities</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">OUR APP ECOSYSTEM</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">TERMS OF USE</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">PRIVACY</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">REFUNDS/CANCELLATION</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="background-color:yellow">
+    © 2021 Copyright:
+    <a style="background-color:yellow">3eco.in</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<script type="text/javascript">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"cd65e392486fd15947694563725b9690d4b37ee38b5bd89167b9fa43ee059e34a81d6b547a35c109951d24f6be71d2d0", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");</script>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+		<script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+</body>
+</html>
